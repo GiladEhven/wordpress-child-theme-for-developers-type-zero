@@ -74,20 +74,20 @@
 
 	if ( is_admin() ) {
 
-//		require_once( dirname( __FILE__ ) . '/functions/admin.php' );
-//		require_once( dirname( __FILE__ ) . '/hookables/admin-actions.php' );
-//		require_once( dirname( __FILE__ ) . '/hookables/admin-filters.php' );
+		require_once( dirname( __FILE__ ) . '/functions/admin.php' );
+		require_once( dirname( __FILE__ ) . '/hookables/admin-actions.php' );
+		require_once( dirname( __FILE__ ) . '/hookables/admin-filters.php' );
 
 	} else {
 
-//		require_once( dirname( __FILE__ ) . '/functions/public.php' );
-//		require_once( dirname( __FILE__ ) . '/hookables/public-actions.php' );
-//		require_once( dirname( __FILE__ ) . '/hookables/public-filters.php' );
+		require_once( dirname( __FILE__ ) . '/functions/public.php' );
+		require_once( dirname( __FILE__ ) . '/hookables/public-actions.php' );
+		require_once( dirname( __FILE__ ) . '/hookables/public-filters.php' );
 
 	}
 
-//  require_once( dirname( __FILE__ ) . '/functions/common.php' );
-//  require_once( dirname( __FILE__ ) . '/hookables/common-actions.php' );
-//  require_once( dirname( __FILE__ ) . '/hookables/common-filters.php' );
+    require_once( dirname( __FILE__ ) . '/functions/common.php' );
+    require_once( dirname( __FILE__ ) . '/hookables/common-actions.php' );
+    require_once( dirname( __FILE__ ) . '/hookables/common-filters.php' );
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
