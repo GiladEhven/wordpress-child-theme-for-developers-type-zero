@@ -1,1 +1,21 @@
 //  PLACEHOLDERS?
+
+
+
+//  @include mix.add-defaults-for-pseudo;
+//  @include mix.add-defaults-for-pseudo( inline-block, absolute, 'something' );
+@mixin add-defaults-for-pseudo( $display: block, $position: absolute, $content: ''){
+    content: $content;
+    display: $display;
+    position: $position;
+}
+
+
+
+//  @include mix.add-prefixed-rules( background-size, cover, moz ms o webkit );
+@mixin add-prefixed-rules( $property, $value, $prefixes ) {
+    @each $prefix in $prefixes {
+        -#{$prefix}-#{$property}: $value;
+    }
+    #{$property}: $value;
+}
