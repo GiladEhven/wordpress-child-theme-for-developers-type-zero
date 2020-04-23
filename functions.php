@@ -74,7 +74,6 @@
 
 	if ( is_admin() ) {
 
-		require_once( dirname( __FILE__ ) . '/classes/admin.php' );
 		require_once( dirname( __FILE__ ) . '/functions/admin-custom.php' );
 		require_once( dirname( __FILE__ ) . '/functions/admin-native.php' );
 		require_once( dirname( __FILE__ ) . '/hookables/admin-actions.php' );
@@ -82,7 +81,6 @@
 
 	} else {
 
-		require_once( dirname( __FILE__ ) . '/classes/public.php' );
 		require_once( dirname( __FILE__ ) . '/functions/public-custom.php' );
 		require_once( dirname( __FILE__ ) . '/functions/public-native.php' );
 		require_once( dirname( __FILE__ ) . '/hookables/public-actions.php' );
@@ -90,7 +88,6 @@
 
 	}
 
-    require_once( dirname( __FILE__ ) . '/classes/common.php' );
     require_once( dirname( __FILE__ ) . '/functions/common-custom.php' );
     require_once( dirname( __FILE__ ) . '/functions/common-native.php' );
     require_once( dirname( __FILE__ ) . '/hookables/common-actions.php' );
