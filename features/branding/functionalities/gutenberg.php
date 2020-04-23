@@ -8,6 +8,8 @@
 
     add_theme_support( 'disable-custom-colors' );
 
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+
     add_theme_support( 'editor-color-palette', array(
         array(
             'name'  => __( 'Black', 'type-zero-child' ),

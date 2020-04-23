@@ -74,7 +74,6 @@
 
 	if ( is_admin() ) {
 
-		require_once( dirname( __FILE__ ) . '/functions/admin-custom.php' );
 		require_once( dirname( __FILE__ ) . '/functions/admin-native.php' );
 		require_once( dirname( __FILE__ ) . '/hookables/admin-actions.php' );
 		require_once( dirname( __FILE__ ) . '/hookables/admin-filters.php' );
@@ -88,6 +87,7 @@
 
 	}
 
+    require_once( dirname( __FILE__ ) . '/features/branding/functionalities/gutenberg.php' );
     require_once( dirname( __FILE__ ) . '/functions/common-custom.php' );
     require_once( dirname( __FILE__ ) . '/functions/common-native.php' );
     require_once( dirname( __FILE__ ) . '/hookables/common-actions.php' );
