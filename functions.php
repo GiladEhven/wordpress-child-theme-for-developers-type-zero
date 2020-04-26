@@ -74,7 +74,8 @@
 
 	if ( is_admin() ) {
 
-		require_once( dirname( __FILE__ ) . '/hookables/admin-actions.php' );
+		require_once( dirname( __FILE__ ) . '/features/markup/functionalities/admin-markup.php' );
+
 		require_once( dirname( __FILE__ ) . '/hookables/admin-filters.php' );
 
 	} else {
