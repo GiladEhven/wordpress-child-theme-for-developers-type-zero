@@ -86,6 +86,7 @@
 	}
 
     require_once( dirname( __FILE__ ) . '/features/branding/functionalities/gutenberg.php' );
+    require_once( dirname( __FILE__ ) . '/features/markup/functionalities/common-markup.php' );
     require_once( dirname( __FILE__ ) . '/hookables/common-actions.php' );
     require_once( dirname( __FILE__ ) . '/hookables/common-filters.php' );
 
