@@ -1,4 +1,12 @@
-//  cd to project root: sass dev/style/sass-for-public.scss assets/css/public.css
+//  cd to project root: sass dev/styles/sass-for-public.scss assets/css/public.css
+
+@use '../../common/styles/base.scss';
+
+@use '../../common/styles/controls.scss';
+@use '../../common/styles/links.scss';
+@use '../../common/styles/print.scss';
+@use '../../common/styles/typography.scss';
+
 
 @use '../../features/animation/styles/animations.scss';
 @use '../../features/branding/styles/branding.scss';
