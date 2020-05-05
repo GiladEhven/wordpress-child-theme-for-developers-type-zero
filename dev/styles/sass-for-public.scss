@@ -7,7 +7,24 @@
 @use '../../common/styles/print.scss';
 @use '../../common/styles/typography.scss';
 
-
+@use '../../features/accessibility/styles/navigation.scss';
+@use '../../features/admin/styles/lists.scss';
+@use '../../features/admin/styles/tablepress.scss';
 @use '../../features/animation/styles/animations.scss';
 @use '../../features/branding/styles/branding.scss';
+@use '../../features/comments/styles/form.scss';
+@use '../../features/comments/styles/list.scss';
+@use '../../features/footer/styles/common-footer.scss';
+@use '../../features/header/styles/common-header.scss';
+@use '../../features/imaging/styles/lightbox.scss';
 @use '../../features/navigation/styles/main-header-navbar.scss';
+@use '../../features/navigation/styles/scroller.scss';
+@use '../../features/types/styles/archive.scss';
+@use '../../features/types/styles/category.scss';
+@use '../../features/types/styles/front-page.scss';
+@use '../../features/types/styles/home.scss';
+@use '../../features/types/styles/page.scss';
+@use '../../features/types/styles/search.scss';
+@use '../../features/types/styles/single.scss';
+@use '../../features/types/styles/singular.scss';
+@use '../../features/types/styles/tag.scss';
