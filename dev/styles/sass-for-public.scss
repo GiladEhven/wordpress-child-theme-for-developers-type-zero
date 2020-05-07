@@ -1,5 +1,7 @@
 //  cd to project root: sass dev/styles/sass-for-public.scss assets/css/public.css
 
+//  cd to project root: sass --style=compressed dev/styles/sass-for-public.scss assets/css/public.css
+
 @use '../../common/styles/base.scss';
 
 @use '../../common/styles/controls.scss';
