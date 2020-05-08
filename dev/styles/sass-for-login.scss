@@ -2,3 +2,9 @@
 
 //  cd to project root: sass --style=compressed dev/style/sass-for-login.scss assets/css/login.css
 
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+@use '../../features/security/styles/login.scss';
+@use '../../features/security/styles/messages.scss';
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
