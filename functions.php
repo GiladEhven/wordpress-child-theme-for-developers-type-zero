@@ -1,17 +1,17 @@
 <?php
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
 
     if ( ! defined( 'ABSPATH' ) ) exit( 'Nothing to see here. Go <a href="/">home</a>.' );
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
 
 	$this_theme = wp_get_theme();
 
     $child_version = $this_theme->get( 'Version' );
     $parent_theme  = $this_theme->get( 'Template' );
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
 
     switch ( $parent_theme ) {
 
@@ -70,21 +70,16 @@
 
     }
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
 
 	if ( is_admin() ) {
 
 		require_once( dirname( __FILE__ ) . '/features/imaging/functionalities/image-processing.php' );
 		require_once( dirname( __FILE__ ) . '/features/markup/functionalities/admin-markup.php' );
 
-		require_once( dirname( __FILE__ ) . '/hookables/admin-filters.php' );
-
 	} else {
 
 		require_once( dirname( __FILE__ ) . '/features/markup/functionalities/public-markup.php' );
-
-        require_once( dirname( __FILE__ ) . '/hookables/public-actions.php' );
-		require_once( dirname( __FILE__ ) . '/hookables/public-filters.php' );
 
 	}
 
@@ -92,7 +87,4 @@
     require_once( dirname( __FILE__ ) . '/features/markup/functionalities/common-markup.php' );
     require_once( dirname( __FILE__ ) . '/features/security/functionalities/gateway.php' );
 
-    require_once( dirname( __FILE__ ) . '/hookables/common-actions.php' );
-    require_once( dirname( __FILE__ ) . '/hookables/common-filters.php' );
-
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - //
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
