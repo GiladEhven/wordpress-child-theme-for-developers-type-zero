@@ -80,6 +80,7 @@
 	} else {
 
 		require_once( dirname( __FILE__ ) . '/features/markup/functionalities/public-markup.php' );
+		require_once( dirname( __FILE__ ) . '/features/pages/functionalities/markup.php' );
 
 	}
 
