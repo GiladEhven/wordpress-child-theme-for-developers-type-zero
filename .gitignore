@@ -1,0 +1,10 @@
+#  Build
+/vendor
+
+#  iOS
+.DS_Store
+
+#  VM
+.vault_pass
+.vagrant
+vagrant.local.yml
