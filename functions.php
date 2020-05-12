@@ -85,6 +85,9 @@
 	}
 
     require_once( dirname( __FILE__ ) . '/features/branding/functionalities/gutenberg.php' );
+    require_once( dirname( __FILE__ ) . '/features/customizer/functionalities/pages.php' );
+    require_once( dirname( __FILE__ ) . '/features/customizer/functionalities/sitewide.php' );
+    require_once( dirname( __FILE__ ) . '/features/customizer/functionalities/types.php' );
     require_once( dirname( __FILE__ ) . '/features/markup/functionalities/common-markup.php' );
     require_once( dirname( __FILE__ ) . '/features/security/functionalities/gateway.php' );
 
