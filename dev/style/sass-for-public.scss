@@ -1,0 +1,45 @@
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+//  cd to project root: sass dev/style/sass-for-public.scss assets/css/public.css
+
+//  cd to project root: sass --style=compressed dev/style/sass-for-public.scss assets/css/public.css
+
+//  cd to project root: sass --no-source-map --style=compressed dev/style/sass-for-public.scss assets/css/public.css
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+@use '../../common/style/base.scss';
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+@use '../../common/style/controls.scss';
+@use '../../common/style/links.scss';
+@use '../../common/style/print.scss';
+@use '../../common/style/typography.scss';
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+@use '../../features/accessibility/style/navigation.scss';
+@use '../../features/admin/style/lists.scss';
+@use '../../features/admin/style/tablepress.scss';
+@use '../../features/animation/style/animations.scss';
+@use '../../features/branding/style/branding.scss';
+@use '../../features/comments/style/form.scss';
+@use '../../features/comments/style/list.scss';
+@use '../../features/footer/style/common-footer.scss';
+@use '../../features/header/style/common-header.scss';
+@use '../../features/imaging/style/lightbox.scss';
+@use '../../features/navigation/style/main-header-navbar.scss';
+@use '../../features/navigation/style/scroller.scss';
+@use '../../features/pages/style/legal.scss';
+@use '../../features/types/style/archive.scss';
+@use '../../features/types/style/category.scss';
+@use '../../features/types/style/front-page.scss';
+@use '../../features/types/style/home.scss';
+@use '../../features/types/style/page.scss';
+@use '../../features/types/style/search.scss';
+@use '../../features/types/style/single.scss';
+@use '../../features/types/style/singular.scss';
+@use '../../features/types/style/tag.scss';
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //

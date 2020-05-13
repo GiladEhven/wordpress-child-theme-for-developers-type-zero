@@ -74,21 +74,22 @@
 
 	if ( is_admin() ) {
 
-		require_once( dirname( __FILE__ ) . '/features/imaging/functionalities/image-processing.php' );
-		require_once( dirname( __FILE__ ) . '/features/markup/functionalities/admin-markup.php' );
+		require_once( dirname( __FILE__ ) . '/features/imaging/functionality/image-processing.php' );
+		require_once( dirname( __FILE__ ) . '/features/markup/functionality/admin-markup.php' );
 
 	} else {
 
-		require_once( dirname( __FILE__ ) . '/features/markup/functionalities/public-markup.php' );
-		require_once( dirname( __FILE__ ) . '/features/pages/functionalities/markup.php' );
+		require_once( dirname( __FILE__ ) . '/features/markup/functionality/public-markup.php' );
+		require_once( dirname( __FILE__ ) . '/features/pages/functionality/markup.php' );
 
 	}
 
-    require_once( dirname( __FILE__ ) . '/features/branding/functionalities/gutenberg.php' );
-    require_once( dirname( __FILE__ ) . '/features/customizer/functionalities/pages.php' );
-    require_once( dirname( __FILE__ ) . '/features/customizer/functionalities/sitewide.php' );
-    require_once( dirname( __FILE__ ) . '/features/customizer/functionalities/types.php' );
-    require_once( dirname( __FILE__ ) . '/features/markup/functionalities/common-markup.php' );
-    require_once( dirname( __FILE__ ) . '/features/security/functionalities/gateway.php' );
+    require_once( dirname( __FILE__ ) . '/common/customizer/pages.php' );
+    require_once( dirname( __FILE__ ) . '/common/customizer/sitewide.php' );
+    require_once( dirname( __FILE__ ) . '/common/customizer/types.php' );
+
+    require_once( dirname( __FILE__ ) . '/features/branding/functionality/gutenberg.php' );
+    require_once( dirname( __FILE__ ) . '/features/markup/functionality/common-markup.php' );
+    require_once( dirname( __FILE__ ) . '/features/security/functionality/gateway.php' );
 
 //  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //

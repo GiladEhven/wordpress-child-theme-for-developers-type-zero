@@ -1,0 +1,22 @@
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+@use '../../../common/utilities/sass/variables.scss' as var;
+@use '../../../common/utilities/sass/mixins.scss' as mix;
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+body.login div#login div#login_error {
+	background-color: rgba(220,50,50,0.35);
+	border: none;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+body.login div#login p.message {
+	background-color: rgba(0,160,210,0.35);
+	border: none;
+	border-radius: 4px;
+	box-shadow: inset 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
