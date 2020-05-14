@@ -74,12 +74,12 @@
 
 	if ( is_admin() ) {
 
-		require_once( dirname( __FILE__ ) . '/features/imaging/functionality/image-processing.php' );
-		require_once( dirname( __FILE__ ) . '/features/markup/functionality/admin-markup.php' );
+		require_once( dirname( __FILE__ ) . '/features/imaging/functionality/settings.php' );
+		require_once( dirname( __FILE__ ) . '/features/markup/functionality/admin.php' );
 
 	} else {
 
-		require_once( dirname( __FILE__ ) . '/features/markup/functionality/public-markup.php' );
+		require_once( dirname( __FILE__ ) . '/features/markup/functionality/public.php' );
 		require_once( dirname( __FILE__ ) . '/features/pages/functionality/markup.php' );
 
 	}
@@ -89,7 +89,7 @@
     require_once( dirname( __FILE__ ) . '/common/customizer/types.php' );
 
     require_once( dirname( __FILE__ ) . '/features/branding/functionality/gutenberg.php' );
-    require_once( dirname( __FILE__ ) . '/features/markup/functionality/common-markup.php' );
+    require_once( dirname( __FILE__ ) . '/features/markup/functionality/common.php' );
     require_once( dirname( __FILE__ ) . '/features/security/functionality/gateway.php' );
 
 //  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //

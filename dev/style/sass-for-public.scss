@@ -23,13 +23,13 @@
 @use '../../features/admin/style/lists.scss';
 @use '../../features/admin/style/tablepress.scss';
 @use '../../features/animation/style/animations.scss';
-@use '../../features/branding/style/branding.scss';
+@use '../../features/branding/style/objects.scss';
 @use '../../features/comments/style/form.scss';
 @use '../../features/comments/style/list.scss';
-@use '../../features/footer/style/common-footer.scss';
-@use '../../features/header/style/common-header.scss';
+@use '../../features/footer/style/common.scss' as common-footer;
+@use '../../features/header/style/common.scss' as common-header;
 @use '../../features/imaging/style/lightbox.scss';
-@use '../../features/navigation/style/main-header-navbar.scss';
+@use '../../features/navigation/style/navbars.scss';
 @use '../../features/navigation/style/scroller.scss';
 @use '../../features/pages/style/legal.scss';
 @use '../../features/types/style/archive.scss';
