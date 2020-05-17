@@ -13,6 +13,10 @@
 
 //  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
 
+    require_once( dirname( __FILE__ ) . '/common/helpers/is.php' );
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
     switch ( $parent_theme ) {
 
         case 'astra':
@@ -79,6 +83,7 @@
 
 	} else {
 
+        require_once( dirname( __FILE__ ) . '/common/helpers/customizer.php' );
 		require_once( dirname( __FILE__ ) . '/features/markup/functionality/public.php' );
 		require_once( dirname( __FILE__ ) . '/features/pages/functionality/markup.php' );
 
