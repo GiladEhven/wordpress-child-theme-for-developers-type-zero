@@ -93,6 +93,9 @@
     require_once( dirname( __FILE__ ) . '/common/customizer/sitewide.php' );
     require_once( dirname( __FILE__ ) . '/common/customizer/types.php' );
 
+//  require_once( dirname( __FILE__ ) . '/common/resources/enqueue.php' );
+//  require_once( dirname( __FILE__ ) . '/common/resources/retag.php' );
+
     require_once( dirname( __FILE__ ) . '/features/branding/functionality/gutenberg.php' );
     require_once( dirname( __FILE__ ) . '/features/markup/functionality/common.php' );
     require_once( dirname( __FILE__ ) . '/features/security/functionality/gateway.php' );
