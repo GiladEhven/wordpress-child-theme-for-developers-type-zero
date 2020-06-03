@@ -4,3 +4,9 @@
 @use '../../../dev/utilities/sass/mixins.scss' as mix;
 
 //  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
+
+table.wp-list-table thead tr th#featured-image {
+    width: 60px !important;
+}
+
+//  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  //
