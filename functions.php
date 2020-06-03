@@ -78,6 +78,7 @@
 
 	if ( is_admin() ) {
 
+		require_once( dirname( __FILE__ ) . '/features/admin/functionality/lists.php' );
 		require_once( dirname( __FILE__ ) . '/features/imaging/functionality/settings.php' );
 		require_once( dirname( __FILE__ ) . '/features/markup/functionality/admin.php' );
 
